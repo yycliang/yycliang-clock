@@ -1482,6 +1482,10 @@
     (uuid ffe8baeb-269b-4576-b322-eed9529f8d89)
   )
 
+  (text "Crystal Rectangular Schematic\n" (at 186.69 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 10c100f1-b7c8-4237-806d-3a75ea71ec11)
+  )
   (text "MCU" (at 124.46 123.19 0)
     (effects (font (size 5 5)) (justify left bottom))
     (uuid 2953c80e-49f2-430a-9909-d4deb5874d39)
