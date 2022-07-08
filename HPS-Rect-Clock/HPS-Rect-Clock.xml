@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\YongY\OneDrive\Desktop\HPS\yycliang-clock\HPS-Rect-Clock\HPS-Rect-Clock.kicad_sch</source>
-    <date>7/6/2022 7:46:12 PM</date>
+    <date>7/7/2022 5:47:49 PM</date>
     <tool>Eeschema (6.0.6)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -24,6 +24,26 @@
     </sheet>
   </design>
   <components>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>footprints:BatteryHolder_Keystone_106_1x20mm</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/Coin_Cell_Guide.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">BS-7-ND</field>
+        <field name="MFG">MPD (Memory Protection Devices)</field>
+        <field name="MPN">BS-7</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Battery_Cell" description="Single-cell battery"/>
+      <property name="MFG" value="MPD (Memory Protection Devices)"/>
+      <property name="MPN" value="BS-7"/>
+      <property name="Digikey PN" value="BS-7-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57677dde-4e7d-42a0-a125-2256902047b9</tstamps>
+    </comp>
     <comp ref="C1">
       <value>C_0805_0.1uf</value>
       <footprint>footprints:C_0805_2012Metric</footprint>
@@ -324,7 +344,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>58707505-aee0-45b4-97b3-d08d11687856</tstamps>
+      <tstamps>a603f5a1-7687-4a30-8e4d-48a49f7aded4</tstamps>
     </comp>
     <comp ref="D7">
       <value>NEOPIXEL_SMT</value>
@@ -344,7 +364,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>77caef1b-6140-4cbd-b017-975d17a20050</tstamps>
+      <tstamps>3b513d50-7064-4f18-9d8c-ba124269bac9</tstamps>
     </comp>
     <comp ref="D8">
       <value>NEOPIXEL_SMT</value>
@@ -364,7 +384,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>556318b6-30cf-442f-8ade-c5dba8028213</tstamps>
+      <tstamps>faed382d-8bc2-4ea6-a22d-60aa113408ff</tstamps>
     </comp>
     <comp ref="D9">
       <value>NEOPIXEL_SMT</value>
@@ -404,7 +424,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4d0156ad-843b-4769-966d-98905f9e9918</tstamps>
+      <tstamps>c965dbd1-0edb-417a-846f-b0656393dbb7</tstamps>
     </comp>
     <comp ref="D11">
       <value>NEOPIXEL_SMT</value>
@@ -424,7 +444,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d9d275a5-0568-471c-bc2b-203dadb90b6c</tstamps>
+      <tstamps>64ac5668-847f-4d33-98df-ef031bc671b7</tstamps>
     </comp>
     <comp ref="D12">
       <value>NEOPIXEL_SMT</value>
@@ -444,7 +464,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f92f3fa3-40e4-4dc5-976c-12aeffb99b7b</tstamps>
+      <tstamps>30862c0f-2fe8-4784-ba0d-609f4ebab780</tstamps>
     </comp>
     <comp ref="D13">
       <value>NEOPIXEL_SMT</value>
@@ -464,7 +484,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7b29be72-61ff-49be-a744-35eeacaba54c</tstamps>
+      <tstamps>21360d0c-0da5-403f-802c-771fa142111c</tstamps>
     </comp>
     <comp ref="D14">
       <value>NEOPIXEL_SMT</value>
@@ -666,6 +686,194 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c20b30ae-8c37-46f6-a56f-e5e40abbe2c8</tstamps>
     </comp>
+    <comp ref="R6">
+      <value>R_0805_47</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0747RL/727972</datasheet>
+      <fields>
+        <field name="Digikey PN">RC0805FR-0747RL </field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0747RL </field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_47" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="Digikey PN" value="RC0805FR-0747RL "/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="MPN" value="RC0805FR-0747RL "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acc43b90-8a1e-429e-9b04-6541c6d1a9b5</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5b9481f-919d-4549-a856-d9e90bb536a6</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>175ed645-735e-4636-a8b5-e2071b2dd93f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>339fc688-e1fa-4dfe-8fb3-7a22ddbf8983</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R_0805_10K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535</datasheet>
+      <fields>
+        <field name="Digikey PN">311-10.0KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_10K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-0710KL"/>
+      <property name="Digikey PN" value="311-10.0KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a57e1687-10ec-4c1a-acc1-346b75626a90</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R_0805_4.7K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K7L/727929</datasheet>
+      <fields>
+        <field name="Digikey PN">311-4.70KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_4.7K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Digikey PN" value="311-4.70KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88cf68cc-487d-4608-b220-04da206f0113</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R_0805_4.7K</value>
+      <footprint>footprints:R_0805_2012Metric</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K7L/727929</datasheet>
+      <fields>
+        <field name="Digikey PN">311-4.70KCRCT-ND</field>
+        <field name="MFG">Yageo</field>
+        <field name="MPN">RC0805FR-074K7L</field>
+        <field name="Mouser PN">N/A</field>
+        <field name="Power">N/A</field>
+        <field name="Tolerance">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_0805_4.7K" description=""/>
+      <property name="MFG" value="Yageo"/>
+      <property name="MPN" value="RC0805FR-074K7L"/>
+      <property name="Digikey PN" value="311-4.70KCRCT-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Power" value="N/A"/>
+      <property name="Tolerance" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf2fb337-f200-4011-9953-eb9f8f890483</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>R_POT_10K</value>
+      <footprint>footprints:Potentiometer_Bourns_3386P_Vertical</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/3386.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">3386P-103TLF-ND</field>
+        <field name="MFG">Bourns Inc.</field>
+        <field name="MPN">3386P-1-103TLF</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="R_POT_10K" description="Potentiometer, US symbol"/>
+      <property name="MFG" value="Bourns Inc."/>
+      <property name="MPN" value="3386P-1-103TLF"/>
+      <property name="Digikey PN" value="3386P-103TLF-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7347a658-7f43-41a9-81d4-652ae2d38eb9</tstamps>
+    </comp>
     <comp ref="SW1">
       <value>Omron_B3F_SPST</value>
       <footprint>footprints:SW_SPST_Omron_B3FS-100xP</footprint>
@@ -807,24 +1015,13 @@
       <tstamps>84dd47d6-79a9-41fc-9a22-e16d3abce965</tstamps>
     </comp>
     <comp ref="U3">
-      <value>L7805_TO92</value>
-      <footprint>footprints:TO-92_Inline</footprint>
-      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</datasheet>
-      <fields>
-        <field name="Digikey PN">497-1443-5-ND</field>
-        <field name="MFG">STMicroelectronics</field>
-        <field name="MPN">L7805CV</field>
-        <field name="Mouser PN">N/A</field>
-      </fields>
-      <libsource lib="HPS" part="L7805_TO92" description="Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92"/>
-      <property name="MFG" value="STMicroelectronics"/>
-      <property name="MPN" value="L7805CV"/>
-      <property name="Digikey PN" value="497-1443-5-ND"/>
-      <property name="Mouser PN" value="N/A"/>
+      <value>L7805</value>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="HPS" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bafcaf2b-036c-4fd3-83ae-1e3a93a1b8f1</tstamps>
+      <tstamps>8d8eb902-eb18-4cd8-b599-b62234c13840</tstamps>
     </comp>
     <comp ref="Y1">
       <value>Crystal_16MHz</value>
@@ -845,6 +1042,26 @@
       <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>60c49968-9a6d-4fe7-8d50-396681c14974</tstamps>
+    </comp>
+    <comp ref="Y2">
+      <value>Crystal_32768Hz</value>
+      <footprint>footprints:Crystal_SMD_2Pin_3.2x1.5mm</footprint>
+      <datasheet>https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</datasheet>
+      <fields>
+        <field name="Digikey PN">1908-1314-1-ND</field>
+        <field name="MFG">Jauch Quartz</field>
+        <field name="MPN">Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <libsource lib="HPS" part="Crystal_32768Hz" description="Two pin 16 MHz crystal in HC-49 SMD footprint."/>
+      <property name="MFG" value="Jauch Quartz"/>
+      <property name="MPN" value="Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF"/>
+      <property name="Digikey PN" value="1908-1314-1-ND"/>
+      <property name="Mouser PN" value="N/A"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HPS-Rect-Clock.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60400a83-43f8-4125-8b5f-378bb769c8ef</tstamps>
     </comp>
   </components>
   <libparts>
@@ -893,6 +1110,24 @@
         <pin num="26" name="PC3" type="tri_state"/>
         <pin num="27" name="PC4" type="tri_state"/>
         <pin num="28" name="PC5" type="tri_state"/>
+      </pins>
+    </libpart>
+    <libpart lib="HPS" part="Battery_Cell">
+      <description>Single-cell battery</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/Coin_Cell_Guide.pdf</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+        <field name="Footprint">footprints:BatteryHolder_Keystone_106_1x20mm</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Memory%20Protection%20PDFs/Coin_Cell_Guide.pdf</field>
+        <field name="MFG">MPD (Memory Protection Devices)</field>
+        <field name="MPN">BS-7</field>
+        <field name="Digikey PN">BS-7-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="HPS" part="C_0805_0.1uf">
@@ -989,6 +1224,27 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="HPS" part="Crystal_32768Hz">
+      <description>Two pin 16 MHz crystal in HC-49 SMD footprint.</description>
+      <docs>https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_32768Hz</field>
+        <field name="Footprint">footprints:Crystal_SMD_2Pin_3.2x1.5mm</field>
+        <field name="Datasheet">https://www.jauch.com/downloadfile/57fde22d50dbf_d3c203011c87952f2834/jtx310-auto-2-210512.pdf</field>
+        <field name="MFG">Jauch Quartz</field>
+        <field name="MPN">Q 0,032768-JTX310-12,5-20-T1-HMR-50K-LF</field>
+        <field name="Digikey PN">1908-1314-1-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="HPS" part="DS1307_DIP-8">
       <description>64 x 8, Serial, I2C Real-time clock, 4.5V to 5.5V VCC, 0°C to +70°C, DIP-8</description>
       <docs>https://datasheets.maximintegrated.com/en/ds/DS1307.pdf</docs>
@@ -1016,26 +1272,23 @@
         <pin num="8" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="HPS" part="L7805_TO92">
-      <description>Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92</description>
-      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</docs>
+    <libpart lib="HPS" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
       <footprints>
-        <fp>TO?92*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">L7805_TO92</field>
-        <field name="Footprint">footprints:TO-92_Inline</field>
-        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf</field>
-        <field name="MFG">STMicroelectronics</field>
-        <field name="MPN">L7805CV</field>
-        <field name="Digikey PN">497-1443-5-ND</field>
-        <field name="Mouser PN">N/A</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="VO" type="power_out"/>
+        <pin num="1" name="IN" type="power_in"/>
         <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="VI" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
       </pins>
     </libpart>
     <libpart lib="HPS" part="LED_0805">
@@ -1211,6 +1464,28 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="HPS" part="R_POT_10K">
+      <description>Potentiometer, US symbol</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/3386.pdf</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT_10K</field>
+        <field name="Footprint">footprints:Potentiometer_Bourns_3386P_Vertical</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/3386.pdf</field>
+        <field name="MFG">Bourns Inc.</field>
+        <field name="MPN">3386P-1-103TLF</field>
+        <field name="Digikey PN">3386P-103TLF-ND</field>
+        <field name="Mouser PN">N/A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="HPS" part="TC1602A-01T">
       <description>LCD 16x2 Alphanumeric , 8 bit parallel bus, 5V VDD</description>
       <docs>https://cdn-shop.adafruit.com/datasheets/TC1602A-01T.pdf</docs>
@@ -1253,12 +1528,19 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
+    <net code="1" name="D0">
+      <node ref="DS1" pin="7" pinfunction="D0" pintype="input"/>
+      <node ref="U2" pin="26" pinfunction="PC3" pintype="tri_state"/>
+    </net>
+    <net code="2" name="E">
+      <node ref="DS1" pin="6" pinfunction="E" pintype="input"/>
+      <node ref="U2" pin="23" pinfunction="PC0" pintype="tri_state"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
@@ -1276,10 +1558,12 @@
       <node ref="D8" pin="1" pinfunction="VSS" pintype="power_in"/>
       <node ref="D9" pin="1" pinfunction="VSS" pintype="power_in"/>
       <node ref="DS1" pin="1" pinfunction="VSS" pintype="power_in"/>
+      <node ref="DS1" pin="16" pinfunction="LED(-)" pintype="power_in"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J2" pin="2" pinfunction="OUT" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="SW2" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="SW3" pin="3" pinfunction="B" pintype="passive"/>
@@ -1287,169 +1571,182 @@
       <node ref="SW5" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="SW5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="10" pinfunction="XTAL2/PB7" pintype="tri_state"/>
       <node ref="U2" pin="22" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="9" pinfunction="XTAL1/PB6" pintype="tri_state"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="2" name="LED_SCK">
+    <net code="4" name="LED_SCK">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="DS1" pin="8" pinfunction="D1" pintype="input"/>
-      <node ref="U2" pin="18" pinfunction="PB4" pintype="tri_state"/>
-      <node ref="U2" pin="19" pinfunction="PB5" pintype="tri_state"/>
+      <node ref="U2" pin="4" pinfunction="PD2" pintype="tri_state"/>
     </net>
-    <net code="3" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="U2" pin="21" pinfunction="AREF" pintype="passive"/>
-    </net>
-    <net code="4" name="Net-(C3-Pad2)">
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
-    </net>
-    <net code="5" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="POLE" pintype="passive"/>
-      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
-    </net>
-    <net code="6" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="7" name="Net-(D2-Pad2)">
+    <net code="5" name="NEO">
       <node ref="D2" pin="2" pinfunction="DIN" pintype="input"/>
       <node ref="R3" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(D2-Pad4)">
+    <net code="6" name="Net-(BT1-Pad1)">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VBAT" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="AREF" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="XTAL1/PB6" pintype="tri_state"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="XTAL2/PB7" pintype="tri_state"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="POLE" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D2-Pad4)">
       <node ref="D2" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D3" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="9" name="Net-(D3-Pad4)">
+    <net code="14" name="Net-(D3-Pad4)">
       <node ref="D3" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D4" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="10" name="Net-(D4-Pad4)">
+    <net code="15" name="Net-(D4-Pad4)">
       <node ref="D4" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D5" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="11" name="Net-(D5-Pad4)">
+    <net code="16" name="Net-(D5-Pad4)">
       <node ref="D5" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D9" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="12" name="Net-(D6-Pad4)">
+    <net code="17" name="Net-(D6-Pad4)">
       <node ref="D6" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D7" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="13" name="Net-(D7-Pad4)">
+    <net code="18" name="Net-(D7-Pad4)">
       <node ref="D7" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D8" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="14" name="Net-(D10-Pad2)">
+    <net code="19" name="Net-(D10-Pad2)">
       <node ref="D10" pin="2" pinfunction="DIN" pintype="input"/>
-      <node ref="D11" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D8" pin="4" pinfunction="DOUT" pintype="output"/>
     </net>
-    <net code="15" name="Net-(D11-Pad2)">
+    <net code="20" name="Net-(D10-Pad4)">
+      <node ref="D10" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D11" pin="2" pinfunction="DIN" pintype="input"/>
-      <node ref="D12" pin="4" pinfunction="DOUT" pintype="output"/>
     </net>
-    <net code="16" name="Net-(D12-Pad2)">
+    <net code="21" name="Net-(D11-Pad4)">
+      <node ref="D11" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D12" pin="2" pinfunction="DIN" pintype="input"/>
-      <node ref="D13" pin="4" pinfunction="DOUT" pintype="output"/>
     </net>
-    <net code="17" name="Net-(D13-Pad2)">
+    <net code="22" name="Net-(D12-Pad4)">
+      <node ref="D12" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D13" pin="2" pinfunction="DIN" pintype="input"/>
-      <node ref="D14" pin="4" pinfunction="DOUT" pintype="output"/>
     </net>
-    <net code="18" name="Net-(D14-Pad2)">
+    <net code="23" name="Net-(D14-Pad2)">
       <node ref="D14" pin="2" pinfunction="DIN" pintype="input"/>
       <node ref="D9" pin="4" pinfunction="DOUT" pintype="output"/>
     </net>
-    <net code="19" name="Net-(DS1-Pad4)">
-      <node ref="DS1" pin="4" pinfunction="RS" pintype="input"/>
-      <node ref="U2" pin="16" pinfunction="PB2" pintype="tri_state"/>
+    <net code="24" name="Net-(D14-Pad4)">
+      <node ref="D14" pin="4" pinfunction="DOUT" pintype="output"/>
+      <node ref="D6" pin="2" pinfunction="DIN" pintype="input"/>
     </net>
-    <net code="20" name="Net-(DS1-Pad5)">
-      <node ref="DS1" pin="5" pinfunction="R/W" pintype="input"/>
-      <node ref="U2" pin="15" pinfunction="PB1" pintype="tri_state"/>
+    <net code="25" name="Net-(DS1-Pad3)">
+      <node ref="DS1" pin="3" pinfunction="VO" pintype="input"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(DS1-Pad6)">
-      <node ref="DS1" pin="6" pinfunction="E" pintype="input"/>
-      <node ref="U2" pin="14" pinfunction="PB0" pintype="tri_state"/>
+    <net code="26" name="Net-(DS1-Pad15)">
+      <node ref="DS1" pin="15" pinfunction="LED(+)" pintype="power_in"/>
+      <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(DS1-Pad7)">
-      <node ref="DS1" pin="7" pinfunction="D0" pintype="input"/>
-      <node ref="U2" pin="17" pinfunction="PB3" pintype="tri_state"/>
-    </net>
-    <net code="23" name="Net-(DS1-Pad9)">
-      <node ref="DS1" pin="9" pinfunction="D2" pintype="input"/>
-      <node ref="U2" pin="23" pinfunction="PC0" pintype="tri_state"/>
-    </net>
-    <net code="24" name="Net-(DS1-Pad10)">
-      <node ref="DS1" pin="10" pinfunction="D3" pintype="input"/>
-      <node ref="U2" pin="24" pinfunction="PC1" pintype="tri_state"/>
-    </net>
-    <net code="25" name="Net-(DS1-Pad11)">
-      <node ref="DS1" pin="11" pinfunction="D4" pintype="input"/>
-      <node ref="U2" pin="25" pinfunction="PC2" pintype="tri_state"/>
-    </net>
-    <net code="26" name="Net-(DS1-Pad12)">
-      <node ref="DS1" pin="12" pinfunction="D5" pintype="input"/>
-      <node ref="U2" pin="4" pinfunction="PD2" pintype="tri_state"/>
-    </net>
-    <net code="27" name="Net-(DS1-Pad13)">
-      <node ref="DS1" pin="13" pinfunction="D6" pintype="input"/>
-      <node ref="U2" pin="5" pinfunction="PD3" pintype="tri_state"/>
-    </net>
-    <net code="28" name="Net-(DS1-Pad14)">
-      <node ref="DS1" pin="14" pinfunction="D7" pintype="input"/>
-      <node ref="U2" pin="6" pinfunction="PD4" pintype="tri_state"/>
-    </net>
-    <net code="29" name="Net-(J1-Pad4)">
+    <net code="27" name="Net-(J1-Pad4)">
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(J1-Pad5)">
+    <net code="28" name="Net-(J1-Pad5)">
       <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="31" name="Net-(R3-Pad1)">
+    <net code="29" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="PD7" pintype="tri_state"/>
     </net>
-    <net code="32" name="Net-(SW2-Pad1)">
-      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U2" pin="27" pinfunction="PC4" pintype="tri_state"/>
+    <net code="30" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="X1" pintype="input"/>
+      <node ref="Y2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(SW3-Pad1)">
-      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U2" pin="11" pinfunction="PD5" pintype="tri_state"/>
+    <net code="31" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="X2" pintype="input"/>
+      <node ref="Y2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="34" name="Net-(SW4-Pad1)">
-      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="U2" pin="12" pinfunction="PD6" pintype="tri_state"/>
-    </net>
-    <net code="35" name="RESET">
+    <net code="32" name="RESET">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="SW5" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="SW5" pin="4" pinfunction="B" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="~{RESET}/PC6" pintype="tri_state"/>
     </net>
-    <net code="36" name="RXD">
+    <net code="33" name="RS">
+      <node ref="DS1" pin="4" pinfunction="RS" pintype="input"/>
+      <node ref="U2" pin="25" pinfunction="PC2" pintype="tri_state"/>
+    </net>
+    <net code="34" name="RW">
+      <node ref="DS1" pin="5" pinfunction="R/W" pintype="input"/>
+      <node ref="U2" pin="24" pinfunction="PC1" pintype="tri_state"/>
+    </net>
+    <net code="35" name="RXD">
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="PD0" pintype="tri_state"/>
     </net>
-    <net code="37" name="TXD">
+    <net code="36" name="SCL">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U2" pin="28" pinfunction="PC5" pintype="tri_state"/>
+    </net>
+    <net code="37" name="SDA">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U2" pin="27" pinfunction="PC4" pintype="tri_state"/>
+    </net>
+    <net code="38" name="SW1">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PD3" pintype="tri_state"/>
+    </net>
+    <net code="39" name="SW2">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PD4" pintype="tri_state"/>
+    </net>
+    <net code="40" name="SW3">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="PD5" pintype="tri_state"/>
+    </net>
+    <net code="41" name="SW4">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="PD6" pintype="tri_state"/>
+    </net>
+    <net code="42" name="TXD">
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="PD1" pintype="tri_state"/>
     </net>
-    <net code="38" name="VCC">
+    <net code="43" name="VCC">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="D10" pin="3" pinfunction="VDD" pintype="power_in"/>
-      <node ref="D10" pin="4" pinfunction="DOUT" pintype="output"/>
       <node ref="D11" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D12" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D13" pin="3" pinfunction="VDD" pintype="power_in"/>
@@ -1458,82 +1755,99 @@
       <node ref="D3" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D4" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D5" pin="3" pinfunction="VDD" pintype="power_in"/>
-      <node ref="D6" pin="2" pinfunction="DIN" pintype="input"/>
       <node ref="D6" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D7" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D8" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="D9" pin="3" pinfunction="VDD" pintype="power_in"/>
-      <node ref="DS1" pin="3" pinfunction="VO" pintype="input"/>
+      <node ref="DS1" pin="2" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="SW1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
       <node ref="U2" pin="20" pinfunction="AVCC" pintype="power_in"/>
-      <node ref="U2" pin="26" pinfunction="PC3" pintype="tri_state"/>
       <node ref="U2" pin="7" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U3" pin="1" pinfunction="VO" pintype="power_out"/>
+      <node ref="U3" pin="3" pinfunction="OUT" pintype="power_out"/>
     </net>
-    <net code="39" name="unconnected-(D8-Pad4)">
-      <node ref="D8" pin="4" pinfunction="DOUT" pintype="output"/>
+    <net code="44" name="unconnected-(D13-Pad4)">
+      <node ref="D13" pin="4" pinfunction="DOUT" pintype="output+no_connect"/>
     </net>
-    <net code="40" name="unconnected-(DS1-Pad2)">
-      <node ref="DS1" pin="2" pinfunction="VDD" pintype="power_in"/>
+    <net code="45" name="unconnected-(DS1-Pad8)">
+      <node ref="DS1" pin="8" pinfunction="D1" pintype="input+no_connect"/>
     </net>
-    <net code="41" name="unconnected-(DS1-Pad15)">
-      <node ref="DS1" pin="15" pinfunction="LED(+)" pintype="power_in"/>
+    <net code="46" name="unconnected-(DS1-Pad9)">
+      <node ref="DS1" pin="9" pinfunction="D2" pintype="input+no_connect"/>
     </net>
-    <net code="42" name="unconnected-(DS1-Pad16)">
-      <node ref="DS1" pin="16" pinfunction="LED(-)" pintype="power_in"/>
+    <net code="47" name="unconnected-(DS1-Pad10)">
+      <node ref="DS1" pin="10" pinfunction="D3" pintype="input+no_connect"/>
     </net>
-    <net code="43" name="unconnected-(J1-Pad3)">
+    <net code="48" name="unconnected-(DS1-Pad11)">
+      <node ref="DS1" pin="11" pinfunction="D4" pintype="input+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(DS1-Pad12)">
+      <node ref="DS1" pin="12" pinfunction="D5" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(DS1-Pad13)">
+      <node ref="DS1" pin="13" pinfunction="D6" pintype="input+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(DS1-Pad14)">
+      <node ref="DS1" pin="14" pinfunction="D7" pintype="input+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J1-Pad3)">
       <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="44" name="unconnected-(J2-Pad3)">
+    <net code="53" name="unconnected-(J2-Pad3)">
       <node ref="J2" pin="3" pinfunction="OUT" pintype="passive+no_connect"/>
     </net>
-    <net code="45" name="unconnected-(SW1-Pad2)">
-      <node ref="SW1" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="54" name="unconnected-(SW1-Pad2)">
+      <node ref="SW1" pin="2" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="46" name="unconnected-(SW1-Pad4)">
-      <node ref="SW1" pin="4" pinfunction="B" pintype="passive"/>
+    <net code="55" name="unconnected-(SW1-Pad4)">
+      <node ref="SW1" pin="4" pinfunction="B" pintype="passive+no_connect"/>
     </net>
-    <net code="47" name="unconnected-(SW2-Pad2)">
-      <node ref="SW2" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="56" name="unconnected-(SW2-Pad2)">
+      <node ref="SW2" pin="2" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="48" name="unconnected-(SW2-Pad4)">
-      <node ref="SW2" pin="4" pinfunction="B" pintype="passive"/>
+    <net code="57" name="unconnected-(SW2-Pad4)">
+      <node ref="SW2" pin="4" pinfunction="B" pintype="passive+no_connect"/>
     </net>
-    <net code="49" name="unconnected-(SW3-Pad2)">
-      <node ref="SW3" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="58" name="unconnected-(SW3-Pad2)">
+      <node ref="SW3" pin="2" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="50" name="unconnected-(SW3-Pad4)">
-      <node ref="SW3" pin="4" pinfunction="B" pintype="passive"/>
+    <net code="59" name="unconnected-(SW3-Pad4)">
+      <node ref="SW3" pin="4" pinfunction="B" pintype="passive+no_connect"/>
     </net>
-    <net code="51" name="unconnected-(SW4-Pad2)">
-      <node ref="SW4" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="60" name="unconnected-(SW4-Pad2)">
+      <node ref="SW4" pin="2" pinfunction="A" pintype="passive+no_connect"/>
     </net>
-    <net code="52" name="unconnected-(SW4-Pad4)">
-      <node ref="SW4" pin="4" pinfunction="B" pintype="passive"/>
+    <net code="61" name="unconnected-(SW4-Pad4)">
+      <node ref="SW4" pin="4" pinfunction="B" pintype="passive+no_connect"/>
     </net>
-    <net code="53" name="unconnected-(U1-Pad1)">
-      <node ref="U1" pin="1" pinfunction="X1" pintype="input"/>
+    <net code="62" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="SQW/OUT" pintype="open_collector+no_connect"/>
     </net>
-    <net code="54" name="unconnected-(U1-Pad2)">
-      <node ref="U1" pin="2" pinfunction="X2" pintype="input"/>
+    <net code="63" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="PB0" pintype="tri_state+no_connect"/>
     </net>
-    <net code="55" name="unconnected-(U1-Pad3)">
-      <node ref="U1" pin="3" pinfunction="VBAT" pintype="power_in"/>
+    <net code="64" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="PB1" pintype="tri_state+no_connect"/>
     </net>
-    <net code="56" name="unconnected-(U1-Pad5)">
-      <node ref="U1" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+    <net code="65" name="unconnected-(U2-Pad16)">
+      <node ref="U2" pin="16" pinfunction="PB2" pintype="tri_state+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(U1-Pad6)">
-      <node ref="U1" pin="6" pinfunction="SCL" pintype="input"/>
+    <net code="66" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="PB3" pintype="tri_state+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(U1-Pad7)">
-      <node ref="U1" pin="7" pinfunction="SQW/OUT" pintype="open_collector"/>
+    <net code="67" name="unconnected-(U2-Pad18)">
+      <node ref="U2" pin="18" pinfunction="PB4" pintype="tri_state+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(U2-Pad28)">
-      <node ref="U2" pin="28" pinfunction="PC5" pintype="tri_state"/>
+    <net code="68" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="PB5" pintype="tri_state+no_connect"/>
     </net>
   </nets>
 </export>
